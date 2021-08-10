@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@100;600;700&display=swap");
+:root {
+  --pmfont: 'Raleway', sans-serif;
+  --stylefont: 'Cookie', cursive;
+  --fontregural: 600;
+  --fontbold: 700;
+  --pmcolor: #2A3D41;
+  --tlcolor: #AD6D12;
+}
+
+body {
+  font-family: var(--pmfont);
+  font-weight: var(--fontregural);
+  background-color: var(--pmcolor);
+}
+
+h1 {
+  font-family: var(--pmfont);
+  font-weight: var(--fontregural);
+  font-size: 6vw;
+  color: var(--tlcolor);
+}
+
+h3 {
+  font-family: var(--pmfont);
+  font-weight: var(--fontregural);
+}
+
+h4 {
+  font-family: var(--pmfont);
+  font-weight: var(--fontbold);
+}
+
+.stylefont {
+  font-family: var(--stylefont);
+  font-size: 7vw;
+  font-weight: 200;
+}
+
+#nav-menu {
+  font-family: var(--pmfont);
+  font-weight: 700;
+}
+
+#nav-menu a,
+#nav-menu li {
+  font-size: 1.5rem;
+}
+
+#header-top {
+  background: url(../image/header.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30%;
+}
+
+#header-title {
+  padding: 8rem 0rem 8rem 0rem;
+}
+
+#new-test i {
+  font-size: 1.5rem;
+}
+
+#our-plate {
+  background: url(../image/our-plate-bg.png) no-repeat top center;
+  background-size: cover;
+}
+
+#our-plate .container {
+  background: rgba(255, 255, 255, 0.534);
+}
+
+#td-md-easy i {
+  font-size: 1.5rem;
+}
+
+#td-md-easy li {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#discover-menue {
+  background: url(../image/discover-background.png) no-repeat top center;
+  background-size: cover;
+}
+
+#discover-menue-items {
+  margin-top: 25rem;
+  text-align: center;
+}
+
+#discover-menue-items strong {
+  font-size: 1.5rem;
+}
+
+#bookhere-top-bg {
+  background: url(../image/spicebg.png) no-repeat center;
+  background-size: cover;
+  height: 80rem;
+}
+
+.form-control:valid {
+  background-color: #96d3ec !important;
+}
+
+#after-book-here {
+  background: url(../image/book-spicebg.png) no-repeat center;
+  background-size: cover;
+  height: 70rem;
+}
+
+.new-menu-button {
+  position: relative;
+  border-bottom: 10px solid yellow;
+  width: 10.5rem;
+}
+
+#footer-social li {
+  display: inline;
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.quotation {
+  width: 5vw;
+}
+
+#footer {
+  background: white;
+}
+
+#footer li {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
